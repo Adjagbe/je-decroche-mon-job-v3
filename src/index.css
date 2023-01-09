@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* @layer base {
+  .items{
+    @apply 
+    text-white  ;
+  }
+
+  .item{
+    @apply  text-lg font-semibold;
+  }
+
+} */
+
+.doc{
+  display: none;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
