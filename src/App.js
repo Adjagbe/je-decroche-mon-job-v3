@@ -7,7 +7,7 @@ import Postulant from './PAGES/Postulant'
 import PassForgot from './PAGES/PassForgot'
 import NotificationPage from './PAGES/Notification_page'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Footer from "./SCREENS/FOOTER";
+import Footer from "./SCREENS/FOOTER/Footer";
 
 export default function App() {
   return (
