@@ -10,7 +10,7 @@ function Home() {
 
             <Header/>
 
-            <div className=""><img src={silde}/></div>
+            <div className=""><img src={silde} alt='photoCadre'/></div>
 
             <form className='grid grid-cols-3 pl-40 my-12'>
                 <input className='border-solid border-2 w-96 h-16 rounded-xl pl-4 ' type="text" placeholder="Métier, Poste, entreprise, mot clés" />

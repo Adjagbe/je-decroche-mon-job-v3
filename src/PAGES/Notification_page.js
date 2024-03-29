@@ -12,7 +12,7 @@ function Notification_page() {
 
             <div className='flex flex-rows pt-3 justify-center'>
                 <div className='text-gray-600 text-2xl'> Notifications  </div>
-                <img src={groupe2} className=" w-12 h-10 pl-2" />
+                <img src={groupe2} className=" w-12 h-10 pl-2" alt='photoCadre' />
             </div>
 
             
@@ -20,7 +20,7 @@ function Notification_page() {
               {[0, 1, 2, 3, 4, 5, 6].map((data, index) => {
                   return <div className='bg-white h-20 w-1/2 my-1 flex items-center px-12 rounded'>
 
-                      <img src={profil} className="w-12 h-12  rounded-full " />
+                      <img src={profil} className="w-12 h-12  rounded-full " alt='photoCadre' />
 
                       <div className='pl-5'>
 
